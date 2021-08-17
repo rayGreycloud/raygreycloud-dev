@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "id": "pub-sq",
+      "name": "Public Square",
+      "description": "Crypto-monetized Micro-blogging App",
+      "role": "Project Developer",
+      "client": "Mathew Safford",
+      "tech": ["React", "Express", "Xumm", "Coil"],
+      "screenshot": "pub-sq-screenshot.png",
+      "repoUrl": "https://github.com/MateoXRP/public-square",
+      "appUrl": "https://pub-sq.herokuapp.com/"
+    },
+    {
+      "id": "gfam",
+      "name": "gfam.live",
+      "description": "Crypto-monetized Social Media App",
+      "role": "Project Developer",
+      "client": "Super Mega Sys",
+      "tech": [
+        "React",
+        "Redux",
+        "MongoDB",
+        "Express",
+        "Cloudinary",
+        "Xumm",
+        "Coil",
+        "Contentful"
+      ],
+      "screenshot": "gfam-screenshot.png",
+      "appUrl": "https://www.gfam.live/"
+    }
+  ]
+}
