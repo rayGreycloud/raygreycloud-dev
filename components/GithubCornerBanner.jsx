@@ -1,10 +1,12 @@
-export const GithubCornerBanner = ({ classes }) => {
+export const GithubCornerBanner = ({ classes, repoUrl }) => {
   return (
     <a
-      href='https://your-url'
+      href={repoUrl}
       className={`github-corner ${classes}`}
       aria-label='View code on GitHub'
       title='View code on GitHub'
+      target='_blank'
+      rel='noopener noreferrer'
     >
       <svg
         width='80'
