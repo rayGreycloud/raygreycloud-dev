@@ -1,4 +1,4 @@
-import { GithubIcon } from './GithubIcon';
+import { GithubIcon } from './icons/GithubIcon';
 
 export const GithubNavCard = () => {
   return (
@@ -6,7 +6,7 @@ export const GithubNavCard = () => {
       href='https://github.com/rayGreycloud'
       target='_blank'
       rel='noopener noreferrer'
-      className='p-6 mt-6 border rounded-xl hover:border-green-600 hover:text-green-600 focus:text-green-600'
+      className='p-6 mt-6 border rounded-xl hover:border-green-600 focus:border-green-600 hover:text-green-600 focus:text-green-600'
     >
       <div className='flex items-center justify-center'>
         <GithubIcon classes={'h-7 mr-3'} />

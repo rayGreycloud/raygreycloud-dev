@@ -1,4 +1,4 @@
-import { LinkedInIcon } from './LinkedInIcon';
+import { LinkedInIcon } from './icons/LinkedInIcon';
 
 export const LinkedInNavCard = () => {
   return (
@@ -6,7 +6,7 @@ export const LinkedInNavCard = () => {
       href='https://www.linkedin.com/in/raygreycloud/'
       target='_blank'
       rel='noopener noreferrer'
-      className='p-6 mt-6 border rounded-xl hover:border-green-600 hover:text-green-600 focus:text-green-600'
+      className='p-6 mt-6 border rounded-xl hover:border-green-600 focus:border-green-600 hover:text-green-600 focus:text-green-600'
     >
       <div className='flex items-center justify-center'>
         <LinkedInIcon classes={'h-7 mr-3'} />
