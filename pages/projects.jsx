@@ -2,7 +2,7 @@ import { GithubCornerBanner } from '../components/GithubCornerBanner';
 
 const ProjectsPage = () => {
   return (
-    <main className='flex flex-col items-center w-full flex-1 pt-20 px-20 text-center'>
+    <main className='flex flex-col items-center w-full flex-1 pt-8 px-20 text-center'>
       <h1 className='text-6xl font-bold mb-6'>
         <div className='text-green-600'>Recent Projects</div>
       </h1>
