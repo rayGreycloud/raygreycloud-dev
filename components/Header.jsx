@@ -33,14 +33,15 @@ export default function Header() {
                 </Disclosure.Button>
               </div>
               <div className='flex-1 flex items-center justify-center sm:items-stretch sm:justify-between'>
-                <div className='flex-shrink-0 flex items-center'>
-                  <div className='block lg:hidden w-auto text-green-400'>
-                    {'<raygreycloud />'}
-                  </div>
-                  <div className='hidden lg:block w-auto text-green-400'>
-                    {'<raygreycloud />'}
-                  </div>
-                </div>
+                <Link href={'/'} className='flex-shrink-0 flex items-center'>
+                  <a
+                    className='w-auto text-lg text-green-400 hover:text-green-300 uppercase tracking-widest'
+                    aria-current={router.pathname == '/' ? 'page' : undefined}
+                  >
+                    raygreycloud.dev
+                  </a>
+                </Link>
+
                 <div className='hidden sm:block sm:ml-6'>
                   <div className='flex space-x-4'>
                     {navigation.map((item) => (
