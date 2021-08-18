@@ -7,18 +7,16 @@ const ResumePage = () => {
         <div className='text-green-600'>Resume</div>
       </h1>
       <a
-        className='my-3 uppercase flex items-baseline'
+        className='my-3 uppercase flex items-baseline hover:text-green-600 transition transform hover:scale-125'
         href='./resume-ray-greycloud.pdf'
         download
       >
         <DownloadIcon classes={'h-6 mr-3'} />
         <span>Download resume</span>
       </a>
+      <div className='border-t mb-4' style={{ width: '96.4%' }} />
       <div>
-        <img
-          className=' md:w-2/3 h-auto mx-auto'
-          src='./resume-ray-greycloud.png'
-        />
+        <img className='mx-auto' src='./resume-ray-greycloud.jpg' />
       </div>
     </main>
   );

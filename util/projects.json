@@ -3,7 +3,7 @@
     {
       "id": "pub-sq",
       "name": "Public Square",
-      "description": "Crypto-monetized Micro-blogging App",
+      "description": "Blockchain Micro-blogging App",
       "role": "Project Developer",
       "client": "Mathew Safford",
       "tech": ["React", "Express", "Xumm", "Coil"],
