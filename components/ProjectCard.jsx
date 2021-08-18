@@ -20,7 +20,7 @@ export const ProjectCard = ({ data }) => {
               <h3 className='text-lg leading-6 font-medium text-gray-900'>
                 {data.name}
               </h3>
-              <p className='mt-1 max-w-2xl text-sm text-gray-500'>
+              <p className='mt-1 max-w-lg text-sm text-gray-500'>
                 {data.description}
               </p>
             </div>
