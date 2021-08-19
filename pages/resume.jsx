@@ -2,7 +2,7 @@ import { DownloadIcon } from '../components/icons/DownloadIcon';
 
 const ResumePage = () => {
   return (
-    <main className='flex flex-col items-center w-full flex-1 md:pt-8 md:px-20 text-center'>
+    <main className='flex flex-col items-center w-full flex-1 pt-16 md:pt-20 md:px-20 text-center'>
       <h1 className='text-3xl md:text-6xl font-bold'>
         <div className='text-green-600'>Resume</div>
       </h1>
@@ -15,7 +15,7 @@ const ResumePage = () => {
         <span>Download resume</span>
       </a>
       <div className='border-t mb-4' style={{ width: '96.4%' }} />
-      <div>
+      <div className='mb-20'>
         <img className='mx-auto' src='./resume-ray-greycloud.jpg' />
       </div>
     </main>
