@@ -12,11 +12,11 @@ const navigation = [
   { name: 'Resume', href: '/resume' }
 ];
 
-export default function Header() {
+export const Header = () => {
   const router = useRouter();
 
   return (
-    <Disclosure as='nav' className='w-full bg-gray-800'>
+    <Disclosure as='nav' className='sticky z-1020 w-full h-fit bg-gray-800'>
       {({ open }) => (
         <>
           <div className='max-w-7xl mx-auto px-2 sm:px-6 lg:px-8'>
@@ -49,9 +49,9 @@ export default function Header() {
                         <a
                           className={`${
                             router.pathname == item.href
-                              ? 'bg-gray-900 text-white'
-                              : 'text-gray-300 hover:bg-gray-700 hover:text-white'
-                          } px-3 py-2 rounded-md text-sm font-medium`}
+                              ? 'text-green-600 border-green-600'
+                              : 'text-gray-300 border-transparent hover:text-green-600 transform hover:scale-125'
+                          } bg-transparent border-b-2 px-3 py-2 text-sm font-medium uppercase transition ease-in`}
                           aria-current={
                             router.pathname == item.href ? 'page' : undefined
                           }
@@ -73,9 +73,9 @@ export default function Header() {
                   <a
                     className={`${
                       router.pathname == item.href
-                        ? 'bg-gray-900 text-white'
-                        : 'text-gray-300 hover:bg-gray-700 hover:text-white'
-                    } block px-3 py-2 rounded-md text-base font-medium`}
+                        ? 'text-green-600'
+                        : 'text-gray-300 hover:text-green-600'
+                    } bg-transparent block px-3 py-2 text-base font-medium uppercase transition ease-in`}
                     aria-current={
                       router.pathname == item.href ? 'page' : undefined
                     }
@@ -90,4 +90,4 @@ export default function Header() {
       )}
     </Disclosure>
   );
-}
+};
