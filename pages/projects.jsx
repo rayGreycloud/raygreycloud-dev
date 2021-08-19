@@ -6,7 +6,6 @@ const ProjectsPage = () => {
   // const projectData = JSON.parse(data);
 
   const { projects } = projectData;
-  console.log('projects: ', projects);
 
   return (
     <main className='flex flex-col items-center w-full flex-1 pt-16 md:pt-20 md:px-20 mb-10 text-center'>
