@@ -29,6 +29,16 @@
       ],
       "screenshot": "gfam-screenshot.png",
       "appUrl": "https://www.gfam.live/"
+    },
+    {
+      "id": "SAI",
+      "name": "SierraGold InQuery",
+      "description": "Call Accounting SaaS",
+      "role": "Frontend Developer",
+      "client": "SAI",
+      "tech": ["React", "Redux", "Sass/SCSS", "Typescript", "SyncFusion"],
+      "screenshot": "/assets/img/sai-inquery.png",
+      "appUrl": "https://sierragold.com/2021/01/06/sierragold-inquery-is-here/"
     }
   ]
 }
