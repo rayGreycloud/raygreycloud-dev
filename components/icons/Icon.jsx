@@ -1,9 +1,9 @@
-export const PaperPlaneIcon = ({ classes }) => (
+export const Icon = ({ classes }) => (
   <svg
     aria-hidden='true'
     focusable='false'
     data-prefix='fal'
-    data-icon='paper-plane'
+    data-icon='name'
     className={`fill-current ${classes}`}
     role='img'
     xmlns='http://www.w3.org/2000/svg'
