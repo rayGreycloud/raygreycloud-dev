@@ -1,6 +1,6 @@
-import { DownloadIcon } from '@/icons/DownloadIcon';
+import { DownloadIcon } from '../components/icons/DownloadIcon';
 
-export default function ResumePage() {
+const ResumePage = () => {
   return (
     <main className='flex flex-col items-center w-full flex-1 pt-16 md:pt-20 md:px-20 text-center'>
       <h1 className='text-3xl md:text-6xl font-bold'>
@@ -8,7 +8,7 @@ export default function ResumePage() {
       </h1>
       <a
         className='my-3 uppercase flex items-baseline hover:text-green-600 transition transform hover:scale-125'
-        href='/assets/resume-ray-greycloud.pdf'
+        href='./resume-ray-greycloud.pdf'
         download
       >
         <DownloadIcon classes={'h-6 mr-3'} />
@@ -16,8 +16,10 @@ export default function ResumePage() {
       </a>
       <div className='border-t mb-4' style={{ width: '96.4%' }} />
       <div className='mb-20'>
-        <img className='mx-auto' src='/assets/img/resume-ray-greycloud.jpg' />
+        <img className='mx-auto' src='./resume-ray-greycloud.jpg' />
       </div>
     </main>
   );
-}
+};
+
+export default ResumePage;
