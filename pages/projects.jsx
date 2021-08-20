@@ -1,10 +1,8 @@
-import { ProjectCard } from '../components/ProjectCard';
+import { ProjectCard } from '@/components/ProjectCard';
 
 import projectData from '../util/projects.json';
 
-const ProjectsPage = () => {
-  // const projectData = JSON.parse(data);
-
+export default function ProjectsPage() {
   const { projects } = projectData;
 
   return (
@@ -20,6 +18,4 @@ const ProjectsPage = () => {
       </div>
     </main>
   );
-};
-
-export default ProjectsPage;
+}

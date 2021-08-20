@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import { DiagramProjectIcon } from './icons/DiagramProjectIcon';
+import { DiagramProjectIcon } from '@/icons/DiagramProjectIcon';
 
 export const ProjectsNavCard = () => {
   return (

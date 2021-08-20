@@ -1,4 +1,4 @@
-import { UpworkIcon } from './icons/UpworkIcon';
+import { UpworkIcon } from '@/icons/UpworkIcon';
 
 export const UpworkNavCard = () => {
   return (
