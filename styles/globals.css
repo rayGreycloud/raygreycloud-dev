@@ -3,15 +3,7 @@
 @tailwind utilities;
 
 @layer utilities {
-  .w-fit {
-    width: fit-content;
-  }
-  .h-fit {
-    height: fit-content;
-  }
-  .z-1020 {
-    z-index: 1020;
-  }
+  @import url('./custom-utilities.css');
 }
 
 @layer components {
