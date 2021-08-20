@@ -1,4 +1,4 @@
-import { DownloadIcon } from '../components/icons/DownloadIcon';
+import { DownloadIcon } from '@/icons/DownloadIcon';
 
 const ResumePage = () => {
   return (

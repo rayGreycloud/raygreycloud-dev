@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import { FileIcon } from './icons/FileIcon';
+import { FileIcon } from '@/icons/FileIcon';
 
 export const ResumeNavCard = () => {
   return (

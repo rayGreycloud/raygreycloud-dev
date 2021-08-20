@@ -1,9 +1,9 @@
-import { ContactNavCard } from '../components/ContactNavCard';
-import { GithubNavCard } from '../components/GithubNavCard';
-import { LinkedInNavCard } from '../components/LinkedInNavCard';
-import { ProjectsNavCard } from '../components/ProjectsNavCard';
-import { ResumeNavCard } from '../components/ResumeNavCard';
-import { UpworkNavCard } from '../components/UpworkNavCard';
+import { ContactNavCard } from '@/components/ContactNavCard';
+import { GithubNavCard } from '@/components/GithubNavCard';
+import { LinkedInNavCard } from '@/components/LinkedInNavCard';
+import { ProjectsNavCard } from '@/components/ProjectsNavCard';
+import { ResumeNavCard } from '@/components/ResumeNavCard';
+import { UpworkNavCard } from '@/components/UpworkNavCard';
 
 const Home = () => (
   <main className='flex flex-col items-center w-full flex-1 pt-16 mb-10 md:pt-16 md:px-20 text-center'>

@@ -3,8 +3,8 @@ import { useRouter } from 'next/router';
 
 import { Disclosure } from '@headlessui/react';
 
-import { MenuIcon } from './icons/MenuIcon';
-import { XIcon } from './icons/XIcon';
+import { MenuIcon } from '@/icons/MenuIcon';
+import { XIcon } from '@/icons/XIcon';
 
 const navigation = [
   { name: 'Home', href: '/' },
