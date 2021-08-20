@@ -1,4 +1,4 @@
-import { LinkedInIcon } from '@/icons/LinkedInIcon';
+import { LinkedInIcon } from './icons/LinkedInIcon';
 
 export const LinkedInNavCard = () => {
   return (
