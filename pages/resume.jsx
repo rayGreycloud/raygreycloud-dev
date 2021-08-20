@@ -8,7 +8,7 @@ export default function ResumePage() {
       </h1>
       <a
         className='my-3 uppercase flex items-baseline hover:text-green-600 transition transform hover:scale-125'
-        href='/assets//resume-ray-greycloud.pdf'
+        href='/assets/resume-ray-greycloud.pdf'
         download
       >
         <DownloadIcon classes={'h-6 mr-3'} />
