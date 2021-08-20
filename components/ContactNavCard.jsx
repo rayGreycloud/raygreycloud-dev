@@ -1,4 +1,4 @@
-import { PaperPlaneIcon } from './icons/PaperPlaneIcon';
+import { PaperPlaneIcon } from '@/icons/PaperPlaneIcon';
 
 export const ContactNavCard = () => {
   return (

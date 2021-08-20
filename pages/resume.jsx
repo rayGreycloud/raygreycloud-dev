@@ -1,6 +1,6 @@
-import { DownloadIcon } from '../components/icons/DownloadIcon';
+import { DownloadIcon } from '@/components/icons/DownloadIcon';
 
-const ResumePage = () => {
+export default function ResumePage() {
   return (
     <main className='flex flex-col items-center w-full flex-1 pt-16 md:pt-20 md:px-20 text-center'>
       <h1 className='text-3xl md:text-6xl font-bold'>
@@ -20,6 +20,4 @@ const ResumePage = () => {
       </div>
     </main>
   );
-};
-
-export default ResumePage;
+}
