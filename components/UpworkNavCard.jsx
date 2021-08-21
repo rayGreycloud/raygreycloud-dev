@@ -1,8 +1,14 @@
+import { motion } from 'framer-motion';
+
+import { navCard } from 'animations';
+
 import { UpworkIcon } from '@/icons/UpworkIcon';
 
 export const UpworkNavCard = () => {
   return (
-    <a
+    <motion.a
+      key='upworkNavCard'
+      variants={navCard}
       href='https://www.upwork.com/freelancers/~01661b7cf04e0b36be'
       target='_blank'
       rel='noopener noreferrer'
@@ -12,6 +18,6 @@ export const UpworkNavCard = () => {
         <UpworkIcon classes={'h-7 mr-3'} />
       </div>
       <p className='mt-4 text-xl text-center'>See my Upwork profile</p>
-    </a>
+    </motion.a>
   );
 };

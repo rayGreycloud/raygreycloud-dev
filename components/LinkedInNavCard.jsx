@@ -1,8 +1,14 @@
+import { motion } from 'framer-motion';
+
+import { navCard } from 'animations';
+
 import { LinkedInIcon } from '@/icons/LinkedInIcon';
 
 export const LinkedInNavCard = () => {
   return (
-    <a
+    <motion.a
+      key='linkedInNavCard'
+      variants={navCard}
       href='https://www.linkedin.com/in/raygreycloud/'
       target='_blank'
       rel='noopener noreferrer'
@@ -13,6 +19,6 @@ export const LinkedInNavCard = () => {
         <h3 className='text-2xl font-bold text-center'>LinkedIn</h3>
       </div>
       <p className='mt-4 text-xl text-center'>See my LinkedIn profile</p>
-    </a>
+    </motion.a>
   );
 };

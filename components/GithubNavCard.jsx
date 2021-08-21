@@ -1,8 +1,14 @@
+import { motion } from 'framer-motion';
+
+import { navCard } from 'animations';
+
 import { GithubIcon } from '@/icons/GithubIcon';
 
 export const GithubNavCard = () => {
   return (
-    <a
+    <motion.a
+      key='githubNavCard'
+      variants={navCard}
       href='https://github.com/rayGreycloud'
       target='_blank'
       rel='noopener noreferrer'
@@ -13,6 +19,6 @@ export const GithubNavCard = () => {
         <h3 className='text-2xl font-bold text-center'>GitHub</h3>
       </div>
       <p className='mt-4 text-xl text-center'>See my GitHub profile</p>
-    </a>
+    </motion.a>
   );
 };

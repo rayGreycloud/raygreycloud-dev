@@ -1,8 +1,14 @@
+import { motion } from 'framer-motion';
+
+import { navCard } from 'animations';
+
 import { PaperPlaneIcon } from '@/icons/PaperPlaneIcon';
 
 export const ContactNavCard = () => {
   return (
-    <a
+    <motion.a
+      key='contactNavCard'
+      variants={navCard}
       href='mailto:raygreycloud@gmail.com'
       target='_blank'
       rel='noopener noreferrer'
@@ -13,6 +19,6 @@ export const ContactNavCard = () => {
         <h3 className='text-2xl font-bold text-center'>Contact</h3>
       </div>
       <p className='mt-4 text-xl text-center'>Email me</p>
-    </a>
+    </motion.a>
   );
 };
