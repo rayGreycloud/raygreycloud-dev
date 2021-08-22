@@ -16,7 +16,7 @@ export const navCard = {
     // y: 0,
     transition: {
       ease: 'easeInOut',
-      duration: 1
+      duration: 0.4
     }
   },
   exit: {
