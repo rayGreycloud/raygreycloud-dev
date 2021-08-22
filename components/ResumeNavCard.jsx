@@ -11,13 +11,12 @@ export const ResumeNavCard = () => {
       <motion.a
         key='ResumeNavCard'
         variants={navCard}
-        className='w-60 p-6 border rounded-xl hover:border-green-600 focus:border-green-600 hover:text-green-600 focus:text-green-600 transition transform hover:scale-125'
+        className='p-6 border rounded-xl hover:border-green-600 focus:border-green-600 hover:text-green-600 focus:text-green-600 transition transform hover:scale-125'
       >
-        <div className='flex items-center justify-center'>
-          <FileIcon classes={'h-6 mr-3'} />
-          <h3 className='text-2xl font-bold text-center'>Resume</h3>
+        <div className='flex flex-col items-center justify-center w-28 h-28'>
+          <FileIcon classes={'h-10'} />
+          <h3 className='mt-4 text-2xl font-bold text-center'>Resum&#xe9;</h3>
         </div>
-        <p className='mt-4 text-xl text-center'>View my resume</p>
       </motion.a>
     </Link>
   );
