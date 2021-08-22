@@ -7,7 +7,7 @@ import { ChalkboardUserIcon } from '@/icons/ChalkboardUserIcon';
 
 export const AboutNavCard = () => {
   return (
-    <Link href='/resume'>
+    <Link href='/about'>
       <motion.a
         key='aboutNavCard'
         variants={navCard}
