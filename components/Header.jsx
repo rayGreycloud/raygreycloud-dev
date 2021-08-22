@@ -9,7 +9,8 @@ import { XIcon } from '@/icons/XIcon';
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Projects', href: '/projects' },
-  { name: 'Resume', href: '/resume' }
+  { name: 'Resume', href: '/resume' },
+  { name: 'Contact', href: '/contact' }
 ];
 
 export const Header = () => {
