@@ -1,3 +1,34 @@
+export const fadeCardsParent = {
+  show: {
+    transition: {
+      staggerChildren: 0.35
+    }
+  }
+};
+
+export const fadeCard = {
+  hidden: {
+    opacity: 0
+    // y: 200
+  },
+  show: {
+    opacity: 1,
+    // y: 0,
+    transition: {
+      ease: 'easeInOut',
+      duration: 0.4
+    }
+  },
+  exit: {
+    opacity: 0,
+    // y: -200,
+    transition: {
+      ease: 'easeInOut',
+      duration: 0.8
+    }
+  }
+};
+
 export const navCardContainer = {
   show: {
     transition: {

@@ -2,9 +2,9 @@ import { motion } from 'framer-motion';
 
 import { ContactNavCard } from '@/components/ContactNavCard';
 import { GithubNavCard } from '@/components/GithubNavCard';
+import { AboutNavCard } from '@/components/AboutNavCard';
 import { LinkedInNavCard } from '@/components/LinkedInNavCard';
 import { ProjectsNavCard } from '@/components/ProjectsNavCard';
-import { ResumeNavCard } from '@/components/ResumeNavCard';
 import { UpworkNavCard } from '@/components/UpworkNavCard';
 
 import { navCardContainer, pageHeader, pageSubheader } from 'animations';
@@ -37,15 +37,9 @@ export default function Home() {
         initial='hidden'
         animate='show'
         exit='exit'
-        className='flex flex-wrap items-center justify-around gap-y-8 max-w-4xl mt-8 md:mt-12 md:mt-18 sm:w-full'
+        className='flex flex-col md:flex-row md:flex-wrap md:items-center md:justify-around gap-y-8 mt-8 md:mt-12 md:mt-18 sm:w-full max-w-2xl'
       >
-        <GithubNavCard />
-
-        <UpworkNavCard />
-
-        <LinkedInNavCard />
-
-        <ResumeNavCard />
+        <AboutNavCard />
 
         <ProjectsNavCard />
 

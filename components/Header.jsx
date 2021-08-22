@@ -9,7 +9,7 @@ import { XIcon } from '@/icons/XIcon';
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Projects', href: '/projects' },
-  { name: 'Resume', href: '/resume' },
+  { name: 'About', href: '/about' },
   { name: 'Contact', href: '/contact' }
 ];
 
