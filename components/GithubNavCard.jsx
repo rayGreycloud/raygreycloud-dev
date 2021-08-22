@@ -13,12 +13,12 @@ export const GithubNavCard = () => {
       target='_blank'
       rel='noopener noreferrer'
       className='p-6 border rounded-xl hover:border-green-600 focus:border-green-600 hover:text-green-600 focus:text-green-600 transition transform hover:scale-125'
+      title='See my GitHub profile'
     >
-      <div className='flex items-center justify-center'>
-        <GithubIcon classes={'h-7 mr-3'} />
-        <h3 className='text-2xl font-bold text-center'>GitHub</h3>
+      <div className='flex flex-col items-center justify-center w-28 h-28'>
+        <GithubIcon classes={'h-10'} />
+        <h3 className='mt-4 text-2xl font-bold text-center'>GitHub</h3>
       </div>
-      <p className='mt-4 text-xl text-center'>See my GitHub profile</p>
     </motion.a>
   );
 };

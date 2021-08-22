@@ -1,8 +1,16 @@
+import { motion } from 'framer-motion';
+
+import { fadeCard } from 'animations';
+
 import { GithubCornerBanner } from './GithubCornerBanner';
 
 export const ProjectCard = ({ data }) => {
   return (
-    <div className='flip-container'>
+    <motion.div
+      key={`projectCard-${data.id}`}
+      variants={fadeCard}
+      className='flip-container'
+    >
       <div className='flip-card'>
         <div className='flip-front'>
           {/* <div className='text-center'>{data.name}</div> */}
@@ -50,6 +58,6 @@ export const ProjectCard = ({ data }) => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };

@@ -1,6 +1,10 @@
+import { motion } from 'framer-motion';
+
 import { API_URL } from '../config/index';
 
 import { ProjectCard } from '@/components/ProjectCard';
+
+import { fadeCardsParent } from 'animations';
 
 export default function ProjectsPage({ projects }) {
   return (
@@ -8,12 +12,19 @@ export default function ProjectsPage({ projects }) {
       <h1 className='text-3xl md:text-6xl font-bold mb-8'>
         <div className='text-green-600'>Recent Projects</div>
       </h1>
-      <div className='flex flex-wrap items-center justify-around gap-4 mb-4 w-100 md:w-2/3'>
+      <motion.div
+        key='projectCardsContainer'
+        variants={fadeCardsParent}
+        initial='hidden'
+        animate='show'
+        exit='exit'
+        className='flex flex-wrap items-center justify-around gap-4 mb-4 w-100 md:w-2/3'
+      >
         {projects &&
           projects.map((project) => (
             <ProjectCard key={project.id} data={project} />
           ))}
-      </div>
+      </motion.div>
     </main>
   );
 }
