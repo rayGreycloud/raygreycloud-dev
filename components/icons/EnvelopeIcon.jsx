@@ -1,17 +1,23 @@
-export const EnvelopeIcon = ({ classes }) => (
-  <svg
-    aria-hidden='true'
-    focusable='false'
-    data-prefix='fas'
-    data-icon='square-envelope'
-    className={`fill-current ${classes}`}
-    role='img'
-    xmlns='http://www.w3.org/2000/svg'
-    viewBox='0 0 448 512'
-  >
-    <path
-      fill='currentColor'
-      d='M384 32H64C28.63 32 0 60.63 0 96v320c0 35.38 28.62 64 64 64h320c35.38 0 64-28.62 64-64V96C448 60.63 419.4 32 384 32zM384 336c0 17.67-14.33 32-32 32H96c-17.67 0-32-14.33-32-32V225.9l138.5 69.27C209.3 298.5 216.6 300.2 224 300.2s14.75-1.688 21.47-5.047L384 225.9V336zM384 190.1l-152.8 76.42c-4.5 2.25-9.812 2.25-14.31 0L64 190.1V176c0-17.67 14.33-32 32-32h256c17.67 0 32 14.33 32 32V190.1z'
-    ></path>
-  </svg>
-);
+export const EnvelopeIcon = ({ classes }) => {
+  return (
+    <div
+      className={`flex items-center justify-center border border-3 hover:border-green-600 focus:bg-green-600 hover:text-green-600 focus:text-green-600 transition transform hover:scale-125 rounded-xl p-6`}
+    >
+      <svg
+        aria-hidden='true'
+        focusable='false'
+        data-prefix='fal'
+        data-icon='envelope'
+        className={`fill-current ${classes}`}
+        role='img'
+        xmlns='http://www.w3.org/2000/svg'
+        viewBox='0 0 512 512'
+      >
+        <path
+          fill='currentColor'
+          d='M448 64H64C28.65 64 0 92.65 0 128v256c0 35.35 28.65 64 64 64h384c35.35 0 64-28.65 64-64V128C512 92.65 483.3 64 448 64zM64 96h384c17.64 0 32 14.36 32 32v36.01l-195.2 146.4c-17 12.72-40.63 12.72-57.63 0L32 164V128C32 110.4 46.36 96 64 96zM480 384c0 17.64-14.36 32-32 32H64c-17.64 0-32-14.36-32-32V203.1L208 336c14.12 10.61 31.06 16.02 48 16.02S289.9 346.6 304 336L480 203.1V384z'
+        ></path>
+      </svg>
+    </div>
+  );
+};

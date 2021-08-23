@@ -1,17 +1,14 @@
 import { motion } from 'framer-motion';
 
 import { ContactNavCard } from '@/components/ContactNavCard';
-import { GithubNavCard } from '@/components/GithubNavCard';
 import { AboutNavCard } from '@/components/AboutNavCard';
-import { LinkedInNavCard } from '@/components/LinkedInNavCard';
 import { ProjectsNavCard } from '@/components/ProjectsNavCard';
-import { UpworkNavCard } from '@/components/UpworkNavCard';
 
 import { navCardContainer, pageHeader, pageSubheader } from 'animations';
 
 export default function Home() {
   return (
-    <main className='flex flex-col items-center w-full flex-1 pt-16 mb-10 md:pt-16 md:px-20 text-center'>
+    <main className='flex flex-col items-center w-full flex-1 pt-16 md:pt-24 md:px-20 mb-10 text-center'>
       <motion.div
         key='homePageHeader'
         initial='hidden'
