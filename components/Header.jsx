@@ -36,7 +36,7 @@ export const Header = () => {
               <div className='flex-1 flex items-center justify-center sm:items-stretch sm:justify-between'>
                 <Link href={'/'} className='flex-shrink-0 flex items-center'>
                   <a
-                    className='w-auto text-lg text-green-400 hover:text-green-300 uppercase tracking-widest'
+                    className='w-auto text-lg text-green-600 hover:scale-125 transition transform uppercase tracking-widest'
                     aria-current={router.pathname == '/' ? 'page' : undefined}
                   >
                     raygreycloud.dev

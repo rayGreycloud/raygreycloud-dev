@@ -7,10 +7,14 @@ export const HeadTags = () => {
   const { pathname } = router;
 
   const titlePg =
-    pathname === '/resume'
-      ? 'Resume | '
+    pathname === '/about'
+      ? 'About | '
       : pathname === '/projects'
       ? 'Projects | '
+      : pathname === '/contact'
+      ? 'Contact | '
+      : pathname === '/resume'
+      ? 'Resume | '
       : '';
 
   return (

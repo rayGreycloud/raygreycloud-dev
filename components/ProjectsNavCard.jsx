@@ -11,7 +11,7 @@ export const ProjectsNavCard = () => {
       <motion.a
         key='projectsNavCard'
         variants={navCard}
-        className='p-6 border rounded-xl hover:border-green-600 focus:border-green-600 hover:text-green-600 focus:text-green-600 transition transform hover:scale-125'
+        className='p-6 border border-3 rounded-xl hover:border-green-600 focus:border-green-600 hover:text-green-600 focus:text-green-600 transition transform hover:scale-125'
       >
         <div className='flex flex-col items-center justify-center w-28 h-28'>
           <DiagramProjectIcon classes={'h-10'} />
