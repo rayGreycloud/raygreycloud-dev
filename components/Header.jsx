@@ -4,13 +4,15 @@ import { useRouter } from 'next/router';
 import { Disclosure } from '@headlessui/react';
 
 import { MenuIcon } from '@/icons/MenuIcon';
+import { CloudSunIcon } from '@/icons/CloudSunIcon';
 import { XIcon } from '@/icons/XIcon';
 
 const navigation = [
-  { name: 'Home', href: '/' },
-  { name: 'Projects', href: '/projects' },
-  { name: 'About', href: '/about' },
-  { name: 'Contact', href: '/contact' }
+  { name: 'home', href: '/' },
+  { name: 'projects', href: '/projects' },
+  { name: 'about', href: '/about' },
+  { name: 'resume', href: '/resume' },
+  { name: 'contact', href: '/contact' }
 ];
 
 export const Header = () => {
@@ -36,10 +38,14 @@ export const Header = () => {
               <div className='flex-1 flex items-center justify-center sm:items-stretch sm:justify-between'>
                 <Link href={'/'} className='flex-shrink-0 flex items-center'>
                   <a
-                    className='w-auto text-lg text-green-600 hover:scale-125 transition transform uppercase tracking-widest'
+                    className='flex items-center w-auto text-green-600 hover:scale-125 transition transform  tracking-widest'
                     aria-current={router.pathname == '/' ? 'page' : undefined}
                   >
-                    raygreycloud.dev
+                    <CloudSunIcon
+                      classes='block h-10 w-10'
+                      aria-hidden='true'
+                    />
+                    <span className='text-lg ml-2'>raygreycloud.dev</span>
                   </a>
                 </Link>
 
