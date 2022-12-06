@@ -31,17 +31,6 @@ export default function ContactPage() {
         >
           <EnvelopeIcon classes={'w-16 h-16'} />
         </motion.a>
-        <motion.a
-          variants={navCard}
-          key='twitterBtn'
-          href='https://twitter.com/intent/user?user_id=1038860382796836864'
-          target='_blank'
-          rel='noopener noreferrer'
-          className='flex items-center justify-center rounded-full '
-          title='My twitter'
-        >
-          <TwitterIcon classes={'w-16 h-16'} />
-        </motion.a>
       </motion.div>
     </main>
   );
