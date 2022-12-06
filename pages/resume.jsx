@@ -11,7 +11,7 @@ export default function ResumePage() {
 
           <a
             className='md:absolute bottom-0 right-0 uppercase flex items-baseline hover:text-green-600 transition transform hover:scale-125'
-            href='/assets/resume2022-ray-greycloud.pdf'
+            href='/assets/resume-ray-greycloud.pdf'
             download
           >
             <DownloadIcon classes={'h-6 mr-3'} />
@@ -21,7 +21,7 @@ export default function ResumePage() {
         <div className='mt-4 mb-20'>
           <img
             className='mx-auto pl-2.5 md:pl-0'
-            src='/assets/resume2022-ray-greycloud.jpg'
+            src='/assets/resume-ray-greycloud.jpg'
           />
         </div>
       </div>
