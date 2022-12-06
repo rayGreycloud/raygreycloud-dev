@@ -1,6 +1,34 @@
 {
   "projects": [
     {
+      "id": "ixgl",
+      "name": "IXGL",
+      "description": "Parkour League/Competition App",
+      "role": "Project Developer",
+      "client": "Super Mega Sys",
+      "tech": [
+        "React",
+        "React-Query",
+        "React-Hook-Form",
+        "MongoDB",
+        "MailgunJS",
+        "Express",
+        "NodeJS"
+      ],
+      "screenshot": "/assets/ixgl-logo.png",
+      "appUrl": "https://ixgl.gfam.live/"
+    },
+    {
+      "id": "loch-tech",
+      "name": "AirShield for Enterprise",
+      "description": "Network Security SAAS",
+      "role": "Sr Frontend Developer",
+      "client": "Loch Technologies",
+      "tech": ["HTML", "MapboxJS", "Flask"],
+      "screenshot": "/assets/loch-tech-screenshot.jpg",
+      "appUrl": "https://loch.io/airshield"
+    },
+    {
       "id": "pub-sq",
       "name": "Public Square",
       "description": "Blockchain Micro-blogging App",
@@ -9,7 +37,7 @@
       "tech": ["React", "Express", "Xumm", "Coil"],
       "screenshot": "/assets/pub-sq-screenshot.png",
       "repoUrl": "https://github.com/MateoXRP/public-square",
-      "appUrl": "https://pub-sq.herokuapp.com/"
+      "appUrl": "https://github.com/MateoXRP/public-square"
     },
     {
       "id": "gfam",
