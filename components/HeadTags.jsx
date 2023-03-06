@@ -20,7 +20,7 @@ export const HeadTags = () => {
   return (
     <Head>
       <title>{`${titlePg}Ray Greycloud`}</title>
-      <link rel='icon' href='/favicon.ico' />
+      <link rel='icon' type='image/x-icon' href='assets/favicon.ico' />
     </Head>
   );
 };
