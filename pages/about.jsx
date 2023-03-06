@@ -7,6 +7,12 @@ import { ResumeNavCard } from '@/components/ResumeNavCard';
 
 import { navCardContainer } from 'animations';
 
+/**
+ * TODO:
+ * Need to replace nav cards with narrative section
+ * Describe my journey to becoming a developer
+ * What I've done so far
+ */
 export default function AboutPage() {
   return (
     <main className='flex flex-col items-center w-full flex-1 pt-16 pl-2.5 md:pt-20 md:px-20 mb-10 text-center'>
