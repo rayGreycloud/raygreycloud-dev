@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-import { API_URL } from '../config/index';
+import { API_URL } from '../../config/index';
 
 import { ProjectCard } from '@/components/ProjectCard';
 
