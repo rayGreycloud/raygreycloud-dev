@@ -8,7 +8,7 @@ import { fadeCardsParent } from 'animations';
 
 export default function ProjectsPage({ projects }) {
   return (
-    <main className='flex flex-col items-center w-full flex-1 pt-16 md:pt-24 md:px-20 mb-10 text-center'>
+    <main className='flex flex-col items-center w-full flex-1 pt-16 md:pt-24 mb-10 text-center'>
       <h1 className='text-3xl md:text-6xl font-bold mb-8'>
         <div className='text-green-600'>Recent Projects</div>
       </h1>
