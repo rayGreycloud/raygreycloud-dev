@@ -5,13 +5,15 @@ import { ScrollWrapper } from './ScrollWrapper';
 
 export const Layout = ({ children }) => {
   return (
-    <div className='flex flex-col justify-between min-h-screen bg-gray-800 text-white'>
-      <HeadTags />
+    <div className='bg-black'>
+      <div className='flex flex-col justify-between min-h-screen bg-gray-800 text-white mx-auto max-w-6xl'>
+        <HeadTags />
 
-      <Header />
+        <Header />
 
-      <ScrollWrapper>{children}</ScrollWrapper>
-      <Footer />
+        <ScrollWrapper>{children}</ScrollWrapper>
+        <Footer />
+      </div>
     </div>
   );
 };

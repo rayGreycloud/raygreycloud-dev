@@ -1,7 +1,7 @@
 export const fadeCardsParent = {
   show: {
     transition: {
-      staggerChildren: 0.35
+      staggerChildren: 0.25
     }
   }
 };
@@ -32,7 +32,7 @@ export const fadeCard = {
 export const navCardContainer = {
   show: {
     transition: {
-      staggerChildren: 0.35
+      staggerChildren: 0.25
     }
   }
 };

@@ -1,10 +1,11 @@
 import { EmailIcon } from '@/icons/EmailIcon';
 import { EnvelopeIcon } from '@/icons/EnvelopeIcon';
-import { TwitterIcon } from '@/icons/TwitterIcon';
 
 import { motion } from 'framer-motion';
 
 import { navCard, navCardContainer } from 'animations';
+
+import { LinkedInIcon } from '@/icons/LinkedInIcon';
 
 export default function ContactPage() {
   return (
@@ -30,6 +31,18 @@ export default function ContactPage() {
           title='Email me'
         >
           <EnvelopeIcon classes={'w-16 h-16'} />
+        </motion.a>
+
+        <motion.a
+          key='linkedInCard'
+          variants={navCard}
+          href='https://www.linkedin.com/in/raygreycloud/'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='flex items-center justify-center p-6 border border-3 rounded-xl hover:border-green-600 focus:border-green-600 hover:text-green-600 focus:text-green-600 transition transform hover:scale-125'
+          title='Contact me thru LinkedIn'
+        >
+          <LinkedInIcon classes={'w-16 h-16'} />
         </motion.a>
       </motion.div>
     </main>
