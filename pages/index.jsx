@@ -8,7 +8,7 @@ import { navCardContainer, pageHeader, pageSubheader } from 'animations';
 
 export default function Home() {
   return (
-    <main className='flex flex-col items-center w-full flex-1 pt-16 md:pt-24 md:px-20 mb-10 text-center'>
+    <main className='flex flex-col items-center w-full flex-1 pt-16 md:pt-24 mb-10 text-center'>
       <motion.div
         key='homePageHeader'
         initial='hidden'
