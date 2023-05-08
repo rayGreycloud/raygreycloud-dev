@@ -25,7 +25,7 @@
       "description": "Network Security SAAS",
       "role": "Sr Frontend Developer",
       "client": "Loch Technologies",
-      "tech": ["HTML", "MapboxJS", "Flask"],
+      "tech": ["HTML", "ChartJS", "MapboxJS", "Flask"],
       "type": "Feature Development",
       "screenshot": "/assets/loch-tech-screenshot.jpg",
       "clientUrl": "https://loch.io/airshield"
@@ -36,7 +36,7 @@
       "description": "Blockchain Micro-blogging App",
       "role": "Project Developer",
       "client": "Mathew Safford",
-      "tech": ["React", "Express", "Xumm", "Coil"],
+      "tech": ["React", "Express", "XRP Ledger", "Xumm", "Coil"],
       "type": "Web App Development",
       "screenshot": "/assets/pub-sq-screenshot.png",
       "repoUrl": "https://github.com/MateoXRP/public-square"
