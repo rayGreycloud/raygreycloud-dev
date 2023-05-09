@@ -1,7 +1,5 @@
 import Badge from '@/components/Badge';
 
-import { BackButton } from './BackButton';
-
 import { getBadgeColor } from 'utils/color';
 
 export const ProjectDisplay = ({ project }) => {
@@ -51,7 +49,8 @@ export const ProjectDisplay = ({ project }) => {
           <div className='px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0'>
             <dt className='text-sm font-medium leading-6 text-white'>Role</dt>
             <dd className='mt-1 text-sm leading-6 text-gray-400 sm:col-span-2 sm:mt-0'>
-              {project.role}
+              <div>{project.role}</div>
+              <div>{project.work}</div>
             </dd>
           </div>
           <div className='px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0'>

@@ -2,9 +2,10 @@
   "projects": [
     {
       "id": "ixgl",
-      "name": "International Xcellence Games League",
+      "name": "Int'l Xcellence Games League",
       "description": "Parkour League/Competition App",
       "role": "Project Developer",
+      "work": "Created web app for Parkour athletic competition league, including competitor leaderboards, athlete/user management and complex competition tracking app used by officials during competitions.",
       "client": "Super Mega Systems Ltd.",
       "tech": [
         "React",
@@ -24,6 +25,7 @@
       "name": "AirShield for Enterprise",
       "description": "Network Security SAAS",
       "role": "Sr Frontend Developer",
+      "work": "Updated data visualization views on Flask-based Wifi Security SAAS. Created React app for customer raw data examination using charts and other data visualization.",
       "client": "Loch Technologies",
       "tech": ["HTML", "ChartJS", "MapboxJS", "Flask"],
       "type": "Feature Development",
@@ -35,6 +37,7 @@
       "name": "Public Square",
       "description": "Blockchain Micro-blogging App",
       "role": "Project Developer",
+      "work": "Developed micro-blogging app that used XRP Ledger/blockchain. Created React app with Express backend and Xumm API integration.",
       "client": "Mathew Safford",
       "tech": ["React", "Express", "XRP Ledger", "Xumm", "Coil"],
       "type": "Web App Development",
@@ -46,6 +49,7 @@
       "name": "gfam.live",
       "description": "Crypto-monetized Social Media App",
       "role": "Project Developer",
+      "work": "Created social media app with cryptocurrency (XRP) tipping. Also implemented features for user-created tutorials, app-sponsored challenges, chatroom, and user profiles.",
       "client": "Super Mega Systems Ltd.",
       "tech": [
         "React",
@@ -65,6 +69,7 @@
       "name": "SierraGold InQuery",
       "description": "Call Accounting SaaS",
       "role": "Frontend Developer",
+      "work": "Updated React-based CDR query application to improve UI and layout. Updated frontend templates of legacy .NET CDR management app. ",
       "client": "SierraGold by SAI Corp",
       "tech": ["React", "Redux", "Sass/SCSS", "Typescript", "SyncFusion"],
       "type": "Feature Development",
