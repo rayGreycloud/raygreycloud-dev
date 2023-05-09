@@ -18,7 +18,7 @@ export default function ProjectsPage({ projects }) {
         initial='hidden'
         animate='show'
         exit='exit'
-        className='flex flex-wrap items-center justify-around gap-6 py-4 w-100 md:w-2/3'
+        className='flex flex-wrap items-center justify-center gap-8 pt-4 pb-12 w-100 md:w-2/3'
       >
         {projects &&
           projects.map((project) => (
