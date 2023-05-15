@@ -1,5 +1,5 @@
 import { ProjectDisplay } from '@/components/ProjectDisplay';
-
+import { ImageGallery } from '@/components/ImageGallery';
 import { BackButton } from '@/components/BackButton';
 
 import { API_URL } from '../../config/index';
@@ -10,6 +10,9 @@ const Project = ({ project }) => {
       <BackButton styleClasses={'pt-16 md:pt-20 pl-2 sm:pl-6 lg:pl-8'} />
       <main className='flex flex-col items-center w-full sm:w-5/6 max-w-3xl mx-auto flex-1 pl-2.5 mb-10'>
         <ProjectDisplay project={project} />
+        {project.screenshots.length > 0 && (
+          <ImageGallery imageUrls={project.screenshots} />
+        )}
       </main>
     </div>
   );
