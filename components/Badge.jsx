@@ -1,5 +1,4 @@
 const Badge = ({ color, children }) => {
-  console.log('color: ', color);
   const baseClasses = `inline-flex items-center rounded-full px-3 py-0.5 text-sm font-medium`;
 
   switch (color) {
