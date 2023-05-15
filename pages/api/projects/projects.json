@@ -17,7 +17,10 @@
         "NodeJS"
       ],
       "type": "Web App Development",
-      "screenshot": "/assets/ixgl-logo.png",
+      "projectImg": "https://res.cloudinary.com/dwspbgspz/image/upload/v1684180190/raygreycloud_dev/ixgl-logo_kenvqp.png",
+      "screenshots": [
+        "https://res.cloudinary.com/dwspbgspz/image/upload/v1684180142/raygreycloud_dev/ixgl_img_003_tiujp7.png"
+      ],
       "appUrl": "https://ixgl.gfam.live/"
     },
     {
@@ -29,7 +32,14 @@
       "client": "Loch Technologies",
       "tech": ["HTML", "ChartJS", "MapboxJS", "Flask"],
       "type": "Feature Development",
-      "screenshot": "/assets/loch-tech-screenshot.jpg",
+      "projectImg": "https://res.cloudinary.com/dwspbgspz/image/upload/v1684180190/raygreycloud_dev/loch-tech-screenshot_dyevvb.jpg",
+      "screenshots": [
+        "https://res.cloudinary.com/dwspbgspz/image/upload/v1684180102/raygreycloud_dev/loch_img_001_ngowqz.png",
+        "https://res.cloudinary.com/dwspbgspz/image/upload/v1684180142/raygreycloud_dev/loch_img_002_z5qdvb.png",
+        "https://res.cloudinary.com/dwspbgspz/image/upload/v1684180144/raygreycloud_dev/loch_img_003_xqyqvq.png",
+        "https://res.cloudinary.com/dwspbgspz/image/upload/v1684180143/raygreycloud_dev/loch_img_004_mxh8mu.png",
+        "https://res.cloudinary.com/dwspbgspz/image/upload/v1684180144/raygreycloud_dev/loch_img_005_chqkyq.gif"
+      ],
       "clientUrl": "https://loch.io/airshield"
     },
     {
@@ -41,7 +51,10 @@
       "client": "Mathew Safford",
       "tech": ["React", "Express", "XRP Ledger", "Xumm", "Coil"],
       "type": "Web App Development",
-      "screenshot": "/assets/pub-sq-screenshot.png",
+      "projectImg": "https://res.cloudinary.com/dwspbgspz/image/upload/v1684180190/raygreycloud_dev/pub-sq-screenshot_bkqqo3.png",
+      "screenshots": [
+        "https://res.cloudinary.com/dwspbgspz/image/upload/v1684180143/raygreycloud_dev/safford_img_001_xexphr.png"
+      ],
       "repoUrl": "https://github.com/MateoXRP/public-square"
     },
     {
@@ -61,7 +74,8 @@
         "Contentful"
       ],
       "type": "Web App Development",
-      "screenshot": "/assets/gfam-screenshot.png",
+      "projectImg": "https://res.cloudinary.com/dwspbgspz/image/upload/v1684180190/raygreycloud_dev/gfam-screenshot_zlymxx.png",
+      "screenshots": [],
       "appUrl": "https://www.gfam.live/"
     },
     {
@@ -73,8 +87,39 @@
       "client": "SierraGold by SAI Corp",
       "tech": ["React", "Redux", "Sass/SCSS", "Typescript", "SyncFusion"],
       "type": "Feature Development",
-      "screenshot": "/assets/sai-inquery.png",
+      "projectImg": "https://res.cloudinary.com/dwspbgspz/image/upload/v1684180190/raygreycloud_dev/sai-inquery_fk2m82.png",
+      "screenshots": [
+        "https://res.cloudinary.com/dwspbgspz/image/upload/v1684180144/raygreycloud_dev/sierra_img_000_peoqhz.png",
+        "https://res.cloudinary.com/dwspbgspz/image/upload/v1684180142/raygreycloud_dev/sierra_img_001_xtzrok.png",
+        "https://res.cloudinary.com/dwspbgspz/image/upload/v1684180142/raygreycloud_dev/sierra_img_002_e3cgxl.png",
+        "https://res.cloudinary.com/dwspbgspz/image/upload/v1684180142/raygreycloud_dev/sierra_img_003_tivkw5.png",
+        "https://res.cloudinary.com/dwspbgspz/image/upload/v1684180142/raygreycloud_dev/sierra_img_004_i6lgbh.png",
+        "https://res.cloudinary.com/dwspbgspz/image/upload/v1684180142/raygreycloud_dev/sierra_img_005_vwd6su.png"
+      ],
       "clientUrl": "https://www.sierragold.com/"
+    },
+    {
+      "id": "ALF",
+      "name": "Referah",
+      "description": "Senior Living Referral SaaS",
+      "role": "Frontend Developer",
+      "work": "Updated React-based frontend to improve UI and layout. Implemented new features including PDF report generation",
+      "client": "ALF Software Solutions",
+      "tech": [
+        "React",
+        "Redux",
+        "MaterialUI",
+        "mui/x-data-grid",
+        "styled-components"
+      ],
+      "type": "Feature Development",
+      "projectImg": "https://res.cloudinary.com/dwspbgspz/image/upload/v1684182301/raygreycloud_dev/alf_img_000_y5tz8d.png",
+      "screenshots": [
+        "https://res.cloudinary.com/dwspbgspz/image/upload/v1684180142/raygreycloud_dev/alf_img_002_mbapep.png",
+        "https://res.cloudinary.com/dwspbgspz/image/upload/v1684180142/raygreycloud_dev/alf_img_003_orvslu.png",
+        "https://res.cloudinary.com/dwspbgspz/image/upload/v1684180145/raygreycloud_dev/alf_img_004_kr19mu.gif"
+      ],
+      "clientUrl": "https://alfsoftwaresolutions.com/"
     }
   ]
 }

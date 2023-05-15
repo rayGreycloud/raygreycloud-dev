@@ -18,7 +18,7 @@ export const ProjectCard = ({ data }) => {
             </h3>
             <div className='text-gray-900 uppercase'>{data.client}</div>
           </div>
-          <img src={data.screenshot} alt='' className='object-cover' />
+          <img src={data.projectImg} alt='' className='object-cover' />
         </div>
       </Link>
     </motion.div>
