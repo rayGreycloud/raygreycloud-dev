@@ -19,7 +19,9 @@
       "type": "Web App Development",
       "projectImg": "https://res.cloudinary.com/dwspbgspz/image/upload/v1684180190/raygreycloud_dev/ixgl-logo_kenvqp.png",
       "screenshots": [
-        "https://res.cloudinary.com/dwspbgspz/image/upload/v1684180142/raygreycloud_dev/ixgl_img_003_tiujp7.png"
+        "https://res.cloudinary.com/dwspbgspz/image/upload/v1684180142/raygreycloud_dev/ixgl_img_003_tiujp7.png",
+        "https://res.cloudinary.com/dwspbgspz/image/upload/v1684862374/ixgl_img_002_d0rxjd.png",
+        "https://res.cloudinary.com/dwspbgspz/image/upload/v1684862374/ixgl_img_003_ubmxiz.png"
       ],
       "appUrl": "https://ixgl.gfam.live/"
     },
@@ -41,6 +43,30 @@
         "https://res.cloudinary.com/dwspbgspz/image/upload/v1684180144/raygreycloud_dev/loch_img_005_chqkyq.gif"
       ],
       "clientUrl": "https://loch.io/airshield"
+    },
+    {
+      "id": "gfam-admin",
+      "name": "gfam.live Admin",
+      "description": "Admin Dashboard for gfam.live",
+      "role": "Project Developer",
+      "work": "Created Admin dashboard for managing users, posts, lessons, challenges, tips and more.",
+      "client": "Super Mega Systems Ltd.",
+      "tech": [
+        "React",
+        "React-Admin",
+        "MongoDB",
+        "Express",
+        "Cloudinary",
+        "XRPL"
+      ],
+      "type": "Web App Development",
+      "projectImg": "https://res.cloudinary.com/dwspbgspz/image/upload/v1684861957/admin_img_001_chqxxt.png",
+      "screenshots": [
+        "https://res.cloudinary.com/dwspbgspz/image/upload/v1684861957/admin_img_001_chqxxt.png",
+        "https://res.cloudinary.com/dwspbgspz/image/upload/v1684861958/admin_img_002_ppqteo.png",
+        "https://res.cloudinary.com/dwspbgspz/image/upload/v1684861957/admin_img_003_nqkl0z.png",
+        "https://res.cloudinary.com/dwspbgspz/image/upload/v1684861956/admin_img_004_ftjytc.png"
+      ]
     },
     {
       "id": "pub-sq",
@@ -75,7 +101,12 @@
       ],
       "type": "Web App Development",
       "projectImg": "https://res.cloudinary.com/dwspbgspz/image/upload/v1684180190/raygreycloud_dev/gfam-screenshot_zlymxx.png",
-      "screenshots": [],
+      "screenshots": [
+        "https://res.cloudinary.com/dwspbgspz/image/upload/v1684861956/gfam_img_001_x1fxqn.png",
+        "https://res.cloudinary.com/dwspbgspz/image/upload/v1684861956/gfam_img_002_imolwj.png",
+        "https://res.cloudinary.com/dwspbgspz/image/upload/v1684861957/gfam_img_003_jxlv84.png",
+        "https://res.cloudinary.com/dwspbgspz/image/upload/v1684861957/gfam_img_004_lnbuz7.png"
+      ],
       "appUrl": "https://www.gfam.live/"
     },
     {
@@ -113,7 +144,7 @@
         "styled-components"
       ],
       "type": "Feature Development",
-      "projectImg": "https://res.cloudinary.com/dwspbgspz/image/upload/v1684182301/raygreycloud_dev/alf_img_000_y5tz8d.png",
+      "projectImg": "https://res.cloudinary.com/dwspbgspz/image/upload/v1684861956/alf_img_000_th0zdi.png",
       "screenshots": [
         "https://res.cloudinary.com/dwspbgspz/image/upload/v1684180142/raygreycloud_dev/alf_img_002_mbapep.png",
         "https://res.cloudinary.com/dwspbgspz/image/upload/v1684180142/raygreycloud_dev/alf_img_003_orvslu.png",
