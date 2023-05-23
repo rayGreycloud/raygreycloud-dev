@@ -21,7 +21,7 @@ export default function ResumePage() {
         <div className='mt-4 mb-20'>
           <img
             className='mx-auto pl-2.5 md:pl-0'
-            src='/assets/resume-ray-greycloud.jpg'
+            src='/assets/resume-ray-greycloud.png'
           />
         </div>
       </div>
