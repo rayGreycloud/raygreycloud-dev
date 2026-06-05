@@ -11,8 +11,8 @@ const navigation = [
   { name: 'home', href: '/' },
   { name: 'projects', href: '/projects' },
   { name: 'about', href: '/about' },
-  { name: 'contact', href: '/contact' },
-  { name: 'resume', href: '/resume' }
+  { name: 'contact', href: '/contact' }
+  // { name: 'resume', href: '/resume' }
 ];
 
 export const Header = () => {
@@ -37,7 +37,7 @@ export const Header = () => {
               </div>
               <div className='flex-1 flex items-center justify-center sm:items-stretch sm:justify-between'>
                 <Link href={'/'} className='flex-shrink-0 flex items-center'>
-                  <a
+                  <span
                     className='flex items-center w-auto text-green-600 hover:scale-125 transition transform  tracking-widest'
                     aria-current={router.pathname == '/' ? 'page' : undefined}
                   >
@@ -46,14 +46,14 @@ export const Header = () => {
                       aria-hidden='true'
                     />
                     <span className='text-lg ml-2'>raygreycloud.dev</span>
-                  </a>
+                  </span>
                 </Link>
 
                 <div className='hidden sm:block sm:ml-6'>
                   <div className='flex space-x-4'>
                     {navigation.map((item) => (
                       <Link key={item.name} href={item.href}>
-                        <a
+                        <span
                           className={`${
                             router.pathname == item.href
                               ? 'text-green-600 border-green-600'
@@ -64,7 +64,7 @@ export const Header = () => {
                           }
                         >
                           {item.name}
-                        </a>
+                        </span>
                       </Link>
                     ))}
                   </div>
@@ -77,7 +77,7 @@ export const Header = () => {
             <div className='px-2 pt-2 pb-3 space-y-1'>
               {navigation.map((item) => (
                 <Link key={item.name} href={item.href}>
-                  <a
+                  <span
                     className={`${
                       router.pathname == item.href
                         ? 'text-green-600'
@@ -88,7 +88,7 @@ export const Header = () => {
                     }
                   >
                     {item.name}
-                  </a>
+                  </span>
                 </Link>
               ))}
             </div>
