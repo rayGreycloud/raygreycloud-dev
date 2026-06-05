@@ -8,7 +8,7 @@ import { PaperPlaneIcon } from '@/icons/PaperPlaneIcon';
 export const ContactNavCard = () => {
   return (
     <Link href='/contact'>
-      <motion.a
+      <motion.div
         key='contactNavCard'
         variants={navCard}
         className='cursor-pointer p-6 border border-3 rounded-xl hover:border-green-600 focus:border-green-600 hover:text-green-600 focus:text-green-600 transition transform hover:scale-125'
@@ -17,7 +17,7 @@ export const ContactNavCard = () => {
           <PaperPlaneIcon classes={'h-10'} />
           <h3 className='mt-4 text-2xl font-bold text-center'>Contact</h3>
         </div>
-      </motion.a>
+      </motion.div>
     </Link>
   );
 };

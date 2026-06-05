@@ -8,7 +8,7 @@ import { ChalkboardUserIcon } from '@/icons/ChalkboardUserIcon';
 export const AboutNavCard = () => {
   return (
     <Link href='/about'>
-      <motion.a
+      <motion.div
         variants={navCard}
         key='aboutNavCard'
         className='cursor-pointer p-6 border border-3 rounded-xl hover:border-green-600 focus:border-green-600 hover:text-green-600 focus:text-green-600 transition transform hover:scale-125'
@@ -17,7 +17,7 @@ export const AboutNavCard = () => {
           <ChalkboardUserIcon classes={'h-10'} />
           <h3 className='mt-4 text-2xl font-bold text-center'>About</h3>
         </div>
-      </motion.a>
+      </motion.div>
     </Link>
   );
 };

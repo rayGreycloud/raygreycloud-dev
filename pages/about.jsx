@@ -59,7 +59,7 @@ export default function AboutPage() {
 
           <LinkedInNavCard />
 
-          <ResumeNavCard />
+          {/* <ResumeNavCard /> */}
         </motion.div>
       </div>
     </main>
