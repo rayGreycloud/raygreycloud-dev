@@ -1,22 +1,13 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
+    "ignoreDeprecations": "6.0",
     "paths": {
-      "@/components/*": [
-        "components/*"
-      ],
-        "@/config/*": [
-          "config/*"
-        ],
-      "@/icons/*": [
-        "components/icons/*"
-      ],
-      "@/pages/*": [
-        "pages/*"
-      ],
-      "@/styles/*": [
-        "styles/*"
-      ]
+      "@/components/*": ["components/*"],
+      "@/config/*": ["config/*"],
+      "@/icons/*": ["components/icons/*"],
+      "@/pages/*": ["pages/*"],
+      "@/styles/*": ["styles/*"]
     }
   }
 }
